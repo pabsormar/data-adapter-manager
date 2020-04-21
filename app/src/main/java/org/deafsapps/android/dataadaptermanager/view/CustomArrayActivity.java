@@ -34,7 +34,7 @@ public class CustomArrayActivity extends AppCompatActivity {
         final ListView lvStudents = findViewById(R.id.activity_custom_array__lv__students);
         // adapter
         final CustomArrayAdapter customArrayAdapter = new CustomArrayAdapter(this, R.layout.row_student, mdsdStudentList);
-        // Here is where data and widget are connected through the data adapter
+        // here is where data and widget are connected through the data adapter
         lvStudents.setAdapter(customArrayAdapter);
         lvStudents.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
